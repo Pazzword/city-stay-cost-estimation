@@ -1,4 +1,4 @@
-# This default functions added to clear the terminal and present the sode on the top of the screen
+# This default functions added to clear the terminal and present the code on the top of the screen
 CLEAR = "\033[2J"
 CLEAR_AND_RETURN = "\033[H"
 
