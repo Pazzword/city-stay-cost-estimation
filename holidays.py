@@ -100,7 +100,7 @@ while True:
     # Ask the user if they want to start over
         start_over = input("\nDo you want to start over? Type 'Y' for Yes, 'N' for No: ").upper()
         if start_over != 'Y':
-            print("Good Buy!!!")
+            print("Goodbye!!!")
             break 
           # Exit the loop if the user does not want to start over
         
