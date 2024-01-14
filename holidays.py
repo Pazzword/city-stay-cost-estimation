@@ -61,10 +61,10 @@ def display_costs(num_nights, rental_days, city_flight, hotel, plane, car, vat, 
     print(f"Car rental cost for {rental_days} days\t£{car}")
     print(f"Return flight to {city_flight}\t\t£{plane}")
     print("\nADDITIONAL EXPENSES:\n-----------------------------------------")
-    print(f"20% VAT\t\t\t\t\t\t£{vat:.2f}")
-    print(f"10% Travel Insurance\t\t\t£{insurance:.2f}")
+    print(f"20% VAT\t\t\t\t£{vat:.2f}")
+    print(f"10% Travel Insurance\t\t£{insurance:.2f}")
     print("\nTOTAL HOLIDAY COST:\n-----------------------------------------")
-    print(f"Total\t\t\t\t\t\t\t£{total + vat + insurance:.2f}")
+    print(f"Total\t\t\t\t£{total + vat + insurance:.2f}")
 
 # Welcome message
 print(f'''{CLEAR} {CLEAR_AND_RETURN}                                  
